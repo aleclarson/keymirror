@@ -1,0 +1,15 @@
+{
+  "name": "keymirror",
+  "version": "1.0.0",
+  "main": "js/KeyMirror",
+  "plugins": [
+    "lotus-coffee"
+  ],
+  "scripts": {
+    "build": "coffee-build -v 1.12.x -b -o js src",
+    "postinstall": "npm run build"
+  },
+  "dependencies": {
+    "has": "aleclarson/has#1.0.0"
+  }
+}
