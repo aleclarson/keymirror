@@ -1,0 +1,8 @@
+{
+  "name": "keymirror",
+  "version": "1.0.0",
+  "main": "js/KeyMirror",
+  "dependencies": {
+    "has": "aleclarson/has#1.0.0"
+  }
+}
